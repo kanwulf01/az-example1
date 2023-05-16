@@ -6,7 +6,7 @@ from src.error import Errors
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
-    print("HOLA CHRISTIAN")
+    
     name = req.params.get('name')
     if not name:
         try:
