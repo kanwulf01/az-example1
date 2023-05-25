@@ -1,6 +1,4 @@
 
-
-from typing_extensions import Self
 import json
 
 class Errors():
